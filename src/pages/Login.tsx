@@ -14,7 +14,7 @@ const Login: React.FC = () => {
     e.preventDefault();
     setIsLoading(true);
     
-    const api_url_login = "https://softwareai.rshare.io/api/login";
+    const api_url_login = "https://api-softwareai.rshare.io/api/login";
     
     fetch(api_url_login, {
       method: 'POST',
