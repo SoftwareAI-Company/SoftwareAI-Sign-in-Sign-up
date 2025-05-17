@@ -24,7 +24,7 @@ const SignUp: React.FC = () => {
     }
     
     setIsLoading(true);
-    const api_url_register = "https://softwareai.rshare.io/api/register";
+    const api_url_register = "https://api-softwareai.rshare.io/api/register";
     
     fetch(api_url_register, {
       method: 'POST',
